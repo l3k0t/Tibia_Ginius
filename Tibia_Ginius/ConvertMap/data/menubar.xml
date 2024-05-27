@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menubar>
+	<menu name="$File">
+		<item name="$New Map..." hotkey="Ctrl+N" action="NEW" help="Create a new map."/>
+		<item name="$Open Map Server ID..." hotkey="Ctrl+O" action="OPEN" help="Open another server ID map."/>
+		<item name="$Convert To Client ID" hotkey="Ctrl+S" action="SAVE" help="Convert the current map for Client ID."/>
+		<item name="$Convert Client ID $As..." hotkey="Ctrl+Alt+S" action="SAVE_AS" help="Convert the current map as a new file."/>
+		<item name="$Close" hotkey="Ctrl+Q" action="CLOSE" help="Closes the currently open map."/>
+		<separator/>
+		<menu name="$Import">
+			<item name="$Import Map Server ID..." action="IMPORT_MAP" help="Import Server ID map data from another map file."/>
+		</menu>
+		<separator/>
+		<item name="$Preferences" action="PREFERENCES" help="Configure the map editor."/>
+		<item name="E$xit" action="EXIT" help="Close the editor."/>
+	</menu>
+</menubar>
