@@ -1,9 +1,0 @@
-https://otland.net/threads/lua-code-in-descriptions-of-quests-in-quests-xml.200368/
-
-https://otland.net/threads/durability-system.202358/
-
-
-
-
-
-DELETE FROM `tile_items` WHERE `itemtype` = NULL

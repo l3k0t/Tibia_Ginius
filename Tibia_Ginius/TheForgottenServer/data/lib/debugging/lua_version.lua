@@ -1,1 +1,0 @@
-print(">> Using " .. _VERSION)
